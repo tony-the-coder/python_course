@@ -10,12 +10,12 @@ def find_latest(submissions):
     # print(x)
 
     # for time in submissions:
-    y = [datetime.strptime(time, date_format) for time in submissions]
+    # y = [datetime.strptime(time, date_format) for time in submissions]
 
-    return max(y)
+    # return max(y)
 
     # Determine and return latest
-    # return max(datetime.strptime(time, date_format) for time in submissions)
+    return max(datetime.strptime(time, date_format) for time in submissions)
 
 
 # You may alter the code below to test your solution or print help documentation.
