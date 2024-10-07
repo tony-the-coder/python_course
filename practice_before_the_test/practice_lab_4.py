@@ -9,5 +9,5 @@ def validate_id(emp_id):
 # You may alter the code below to test your solution or print help documentation.
 # Only the validate_id function will be graded for this assessment.
 
-print(validate_id("IT12345"))
+print(validate_id("HRD00123"))
 # help(help)
